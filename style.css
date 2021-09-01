@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    background: #1ea8b3;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+.hero-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colored {
+    height: 27vh;
+    background: #3dc7d2;
+    /* width: 20%; */
+    padding: 0em 13em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.hero-circled img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background: #000;
+    margin-top: 42px;
+    z-index: 9;
+    top: 22%;
+    left: 44.5%;
+    position: absolute;
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.extra {
+    height: 45vh;
+    background: #fff;
+    padding: 0em 5em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-top: 110px;
+}
+.text h3 {
+    font-family: 'Alata', sans-serif;
+}
+
+span {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.followers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 4px;
+}
+
+.hero-retentive {
+    display: flex;
+    justify-content: center;
+}
